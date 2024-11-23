@@ -22,3 +22,20 @@
 button.btn{
   background-color: grey;
 }
+
+@media screen and (max-width: 800px) {
+  .recent{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .recent{
+    margin-top: 400px;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}

@@ -27,15 +27,13 @@ ul {
 }
 button {
   border-radius: 5px;
-  padding: 17px 30px;
+  padding: 12px 15px;
   background: #27ae60;
   border: none;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   font-weight: bold;
-}
-button i {
-  margin-right: 5px;
+  font-size: 18px;
 }
 .heading {
   text-align: center;

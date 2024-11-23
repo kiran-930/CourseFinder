@@ -59,7 +59,8 @@ button.btn1:hover{
   }
   header .toggle {
     display: block;
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
   }
   header .small {
     position: absolute;
@@ -72,6 +73,16 @@ button.btn1:hover{
   header li a {
     display: inline-block;
     margin-bottom: 20px;
+    margin-left: 20px;
     color: #fff;
+  }
+  header .header {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  header li a {
+    margin-left: 2px;
   }
 }
