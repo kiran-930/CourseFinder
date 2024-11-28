@@ -9,12 +9,15 @@ import Studentdetails from './components/Admin/Studentdetails'
 import Coursedetails from './components/Admin/Coursedetails'
 import Universitydetails from './components/Admin/Universitydetails'
 import Otpverification from './pages/Otpverification'
+import About from "./components/about/About";
+
 
 function App() {
   return (
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
         <Route path="/universityregister" element={<Register uniregister />} />
         <Route path="/studentregister" element={<Register />} />
         <Route path="/flow" element={<Flow />} />
