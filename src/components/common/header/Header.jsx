@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./header.css";
-import { nav } from "../../data/Data";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -15,11 +14,18 @@ const Header = () => {
           </div>
           <div className="nav">
             <ul className={navList ? "small" : "flex"}>
-              {nav.map((list, index) => (
-                <li key={index}>
-                  <Link to={list.path}>{list.text}</Link>
-                </li>
-              ))}
+              <li>
+                <Link to="/home">Home</Link>
+              </li>
+              <li>
+                <Link to="/courses">Courses</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
           <div className="button flex">

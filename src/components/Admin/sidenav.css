@@ -1,0 +1,6 @@
+.dashboard{
+    transition: all 0.2s;
+}
+.dashboard:hover{
+    transform: translateY(-20px);
+}

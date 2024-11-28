@@ -1,0 +1,20 @@
+.outerdiv{
+    min-height: 100vh;
+    /* background-color: blueviolet;*/
+    background-image: url('https://media.istockphoto.com/id/1294598266/vector/orange-abstract-template-background.jpg?s=612x612&w=0&k=20&c=VrQ3WWLNEyhOZwtRdlpqtUs7Phh5VuQGaLwPn0L32k8=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.innerdiv{
+    height: 35rem;
+    background-color: rgba(248, 247, 246, 0.436);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    margin-left: -350px;
+    width: 700px;
+    margin-top: 100px;
+}
+.studiv:hover ,.unidiv:hover {
+background-color: rgba(241, 206, 149, 0.518);
+}

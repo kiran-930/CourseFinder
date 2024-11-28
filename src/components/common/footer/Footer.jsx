@@ -1,7 +1,21 @@
 
 import React from "react"
-import { footer } from "../../data/Data"
 import "./footer.css"
+
+export const footer = [
+  {
+    title: "LAYOUTS",
+    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+  },
+  {
+    title: "ALL SECTIONS",
+    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+  },
+  {
+    title: "COMPANY",
+    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+  },
+]
 
 const Footer = () => {
   return (
@@ -46,7 +60,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
+        <span>© 2024 CourseFinder. Designd by team CourseFinder.</span>
       </div>
     </>
   )
